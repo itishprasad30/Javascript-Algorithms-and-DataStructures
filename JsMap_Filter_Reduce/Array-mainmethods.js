@@ -16,3 +16,13 @@ const filterItems = rates.filter((num) => {
 });
 
 console.log(filterItems); //returns:➡️ [40,50]
+
+// Reduce --Accumulate a value by doing something to each item in an array
+var price = [30, 40, 20, 10];
+
+const reducedItem = price.reduce((prev, curr) => {
+  return prev + curr;
+}, 0);
+//last this is the initial value
+
+console.log(reducedItem); // result:➡️ 100
