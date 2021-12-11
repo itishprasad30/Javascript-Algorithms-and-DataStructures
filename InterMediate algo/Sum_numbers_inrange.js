@@ -9,7 +9,7 @@ function sumAll(arr) {
   return sumInitial;
 }
 
-console.log(sumAll([100, 1]));
+console.log(sumAll([100, 1])); // 5050
 
 // Find the different from two array
 
@@ -30,4 +30,4 @@ const differArr = (arr1, arr2) => {
   return newArr;
 };
 
-console.log(differArr([1, 2, 3], [2, 3, 4, 5]));
+console.log(differArr([1, 2, 3], [2, 3, 4, 5])); // [1,4,5]
