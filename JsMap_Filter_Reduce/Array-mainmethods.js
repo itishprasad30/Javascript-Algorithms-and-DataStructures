@@ -26,3 +26,31 @@ const reducedItem = price.reduce((prev, curr) => {
 //last this is the initial value
 
 console.log(reducedItem); // result:➡️ 100
+
+//Find -find the first item that matches from an array
+const findingEl = [21, 23, 32, 35, 43];
+const findElement = findingEl.find((num) => {
+  return num > 35;
+});
+
+console.log(findElement); // 43
+
+// Every- it will match every item in array if condition matched and retrun ture or false
+
+const everCon = [12, 23, 354, 456, 56, -1, -42];
+
+const everyFun = everCon.every((value) => {
+  return value < 0;
+});
+
+console.log(everyFun); // false
+
+// Some - its exact opposite of every that it will return true if some of the condition is matched with arr,other wise it will return false
+
+const someEle = [12, 23, 354, 456, 56, -1, -42];
+
+const somefun = someEle.some((val) => {
+  return val > 0;
+});
+
+console.log(somefun); // true :that means some ele are match the condition
