@@ -1,4 +1,4 @@
-const num = 3849;
+const num = 3842;
 
 function reverseGivenInteger(num) {
   // write your solution here
