@@ -1,0 +1,14 @@
+  {
+  "name": "pratice-node-js",
+  "version": "1.0.0",
+  "description": "for eductional purpose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Itish prasad sahoo",
+  "license": "ISC",
+  "dependencies": {
+    "marvel-comics-characters": "^1.1.1"
+  }
+}
