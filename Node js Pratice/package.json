@@ -1,4 +1,4 @@
-  {
+{
   "name": "pratice-node-js",
   "version": "1.0.0",
   "description": "for eductional purpose",
@@ -9,6 +9,7 @@
   "author": "Itish prasad sahoo",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
     "marvel-comics-characters": "^1.1.1"
   }
 }
