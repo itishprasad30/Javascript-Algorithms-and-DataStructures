@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-crash-course",
+  "version": "1.0.0",
+  "description": "Crash course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "itish prasad sahoo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "uuid": "^8.3.2"
+  }
+}
