@@ -14,4 +14,4 @@ const revInt = (num) => {
   );
 };
 
-console.log(revInt(-1230));
+console.log(revInt(-1223000));
