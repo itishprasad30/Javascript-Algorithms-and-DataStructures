@@ -1,3 +1,4 @@
+/*
 class LinkedList {
   constructor() {
     // 1st excute when new called
@@ -101,3 +102,61 @@ linkedList1.insertAfter("new-val-1", 12);
 console.log(linkedList1.toArray());
 
 console.log(linkedList1);
+
+*/
+
+//////////////
+// Linked List by Node
+
+// const n1 = {
+//   data: 100,
+// };
+// const n2 = {
+//   data: 200,
+// };
+
+// n1.next = n2;
+
+// console.log(n1);
+
+class Node {
+  constructor(data, next = null) {
+    this.data = data;
+    this.next = next;
+  }
+}
+
+// const nn = new Node(100);
+// console.log(nn);
+
+class LinkedListNew {
+  constructor() {
+    this.head = null;
+    this.size = 0;
+  }
+
+  // insert first Node
+  insertFirst(data) {
+    this.head = new Node(data, this.head);
+  }
+
+  // print node data
+
+  printData(data) {
+    let currNode = this.head;
+    while (currNode) {
+      console.log(currNode.data);
+      currNode = currNode.next;
+    }
+  }
+}
+
+const ll = new LinkedListNew();
+console.log(ll);
+
+ll.insertFirst(100);
+ll.insertFirst(200);
+ll.insertFirst(300);
+ll.insertFirst(400);
+ll.printData();
+console.log(ll);
