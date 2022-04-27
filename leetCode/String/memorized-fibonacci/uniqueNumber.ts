@@ -4,4 +4,4 @@ const uid = ():string => {
   return val1+val2
 };
 
-uid();
+console.log(uid)
