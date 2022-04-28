@@ -21,8 +21,9 @@ body {
 
 .box {
     top: 50px;
-    background-color: rgba(255,255,255,0.3);
-    border-radius: 15px;
+    background-color: rgba(255,255,255, 0.2);
+    /* background-color: rgba(0, 0, 0, 0.4);  for dark mode it is compatable for this*/ 
+     border-radius: 15px;
     text-align: center;
     line-height: 1;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
