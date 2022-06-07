@@ -35,4 +35,8 @@ developer2.skills.primary = "Block Chain ";
 
 console.log(developer1);
 
-console.log(developer2);
+// console.log(developer2.calculateNum());
+
+const array_of_Number = [12, 43, 21];
+
+array_of_Number.flatMap((a) => console.log(a));
