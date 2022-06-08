@@ -15,23 +15,6 @@ Each algorithm and data structure has its own separate README
 with related explanations and links for further reading (including ones
 to YouTube videos).
 
-_Read this in other languages:_
-[_简体中文_](README.zh-CN.md),
-[_繁體中文_](README.zh-TW.md),
-[_한국어_](README.ko-KR.md),
-[_日本語_](README.ja-JP.md),
-[_Polski_](README.pl-PL.md),
-[_Français_](README.fr-FR.md),
-[_Español_](README.es-ES.md),
-[_Português_](README.pt-BR.md),
-[_Русский_](README.ru-RU.md),
-[_Türk_](README.tr-TR.md),
-[_Italiana_](README.it-IT.md),
-[_Bahasa Indonesia_](README.id-ID.md),
-[_Українська_](README.uk-UA.md),
-[_Arabic_](README.ar-AR.md),
-[_Tiếng Việt_](README.vi-VN.md),
-[_Deutsch_](README.de-DE.md)
 
 *☝ Note that this project is meant to be used for learning and researching purposes
 only, and it is **not** meant to be used for production.*
