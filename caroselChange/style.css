@@ -1,0 +1,54 @@
+* {
+  margin: 0px;
+  /* background: rgb(2, 0, 36); */
+  /* background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  ); */
+}
+
+.carousel {
+  position: relative;
+}
+
+.carousel__item {
+  height: 500px;
+  background: aquamarine;
+  padding: 1em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 3rem;
+  font-weight: bolder;
+  color: rgb(17, 15, 15);
+  display: none;
+}
+
+.carousel__item--selected {
+  display: block;
+}
+
+.carousel__nav {
+  /* background: rebeccapurple; */
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  padding: 30px 0px;
+  width: 100%;
+  text-align: center;
+  margin: 0px 5px;
+}
+
+.carousel__button {
+  width: 50px;
+  height: 10px;
+  margin: 0px 10px;
+  display: inline-block;
+  background: rgba(46, 43, 43, 0.5);
+  border-radius: 12px;
+
+  cursor: pointer;
+}
+.carousel__button--selected {
+  background: rgba(16, 50, 117, 0.684);
+}

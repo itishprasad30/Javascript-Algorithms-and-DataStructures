@@ -29,3 +29,12 @@ function clickEvent(type, selector, callback) {
 clickEvent("click", "div", (e) => {
   console.log("hi");
 });
+
+let peoples = {
+  name: "The weeknd",
+  artist: true,
+  age: 31,
+  genre: "Pop & R&b",
+};
+
+console.log(peoples);
