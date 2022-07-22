@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  /* background: rgb(238, 174, 202); */
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+.form {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+form {
+  -webkit-box-shadow: 20px 20px 5px 12px rgba(110, 97, 110, 1);
+  -moz-box-shadow: 20px 20px 5px 12px rgba(110, 97, 110, 1);
+  box-shadow: 20px 20px 5px 12px rgba(110, 97, 110, 1);
+  width: 320px;
+  height: 320px;
+  background-color: rgb(69, 69, 29);
+  padding: 5px;
+  border-radius: 15px;
+}
+select {
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.search {
+  width: 200px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+#alice {
+  animation: aliceTumbling infinite 3s linear;
+  color: #431236;
+  width: 25%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: 0 0;
+  transform: rotate(0) translate3D(-50%, -50%, 0);
+  backface-visibility: hidden;
+  will-change: transform, color;
+}
+
+path {
+  fill: currentColor;
+}
+
+@keyframes aliceTumbling {
+  0% {
+    color: #000;
+    transform: rotate(0) translate3D(-50%, -50%, 0);
+  }
+  30% {
+    color: #431236;
+  }
+  100% {
+    color: #000;
+    transform: rotate(180deg) translate3D(-50%, -50%, 0);
+  }
+}
+
+/* This stuff might be interesting. */
+.tunnel {
+  animation: tunnelFly 1s linear infinite;
+  background: url("http://rachelnabors.com/alice-in-videoland/book/img/bg-tunnel-border-left.svg")
+      repeat-y,
+    url("http://rachelnabors.com/alice-in-videoland/book/img/bg-tunnel-border-right.svg")
+      repeat-y 100% 100%,
+    url("http://rachelnabors.com/alice-in-videoland/book/img/bg_tunnel-specks.png"),
+    #6c373f;
+  margin: 0 auto;
+  height: calc(100% + 300px);
+  width: 60%;
+  min-width: 400px;
+  backface-visibility: hidden;
+  will-change: transform;
+}
+
+@keyframes tunnelFly {
+  100% {
+    transform: translate3D(0, -300px, 0);
+  }
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
